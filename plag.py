@@ -8,7 +8,7 @@ import Tkinter
 app = Flask("__name__")
 
 q = ""
-def trushal():
+def trushal():xgxhdydyyodhdixigzkbbxkgsiysitsohsitwitwihdou
 	
 @app.route("/")
 def loadPage():
