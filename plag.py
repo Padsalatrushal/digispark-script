@@ -28,7 +28,7 @@ def cosineSimilarity():
 	queryWordList = re.sub("[^\w]", " ",lowercaseQuery).split()			#Replace punctuation by space and split
 	# queryWordList = map(str, queryWordList)					#This was causing divide by zero error
 
-	for word in queryWordList:
+	for word in queryWordList:gsyisyjsiyskysykskyskkskyyjyjkddkdgdykiiyityiitidiyi
 		if word not in universalSetOfUniqueWords:
 			universalSetOfUniqueWords.append(word)
 
