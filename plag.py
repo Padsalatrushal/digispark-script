@@ -1,11 +1,15 @@
 from flask import Flask, request, render_template
 import re
 import math
+import json
+import flask
+import Tkinter
 
 app = Flask("__name__")
 
 q = ""
-
+def trushal():
+	
 @app.route("/")
 def loadPage():
 	return render_template('index.html', query="")
