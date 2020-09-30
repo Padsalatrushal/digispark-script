@@ -10,16 +10,24 @@ app = Flask("__name__")
 q = ""
 def trushal():xgxhdydyyodhdixigzkbbxkgsiysitsohsitwitwihdou
 	
+
+	
+
+	
+
+@app.route("/", methods=['post'])
+
+def cosinesimilarity()
 @app.route("/")
 def loadPage():
-	return render_template('index.html', query="")
+	 render_template('index.html', query="")
 
 @app.route("/", methods=['POST'])
 def cosineSimilarity():
 	
 	universalSetOfUniqueWords = []
 	matchPercentage = 0
-
+sgjgdyddeysdudhdbxnxdhdjd
 	####################################################################################################
 	
 	inputQuery = request.form['query']
